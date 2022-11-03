@@ -1,4 +1,4 @@
-package com.scaler.parkinglot.strategies.feescalculationstrategy;
+package com.scaler.strategies.feescalculationstrategy;
 
 public interface FeesCalculationStrategy {
     double calculateFees();

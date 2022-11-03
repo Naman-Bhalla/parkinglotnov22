@@ -1,4 +1,4 @@
-package com.scaler.parkinglot.models;
+package com.scaler.models;
 
 public abstract class BaseModel {
     private Long id;

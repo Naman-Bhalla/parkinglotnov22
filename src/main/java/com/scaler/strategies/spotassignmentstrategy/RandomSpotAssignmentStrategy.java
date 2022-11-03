@@ -1,15 +1,15 @@
-package com.scaler.parkinglot.strategies.spotassignmentstrategy;
+package com.scaler.strategies.spotassignmentstrategy;
 
-import com.scaler.parkinglot.models.*;
+import com.scaler.models.*;
 
 public class RandomSpotAssignmentStrategy implements SpotAssignmentStrategy {
 
     @Override
-    public ParkingSpot assignSpot(ParkingLot parkingLot, SpotType spotType, EntryGate entryGate) {
+    public ParkingSpot assignSpot(ParkingLot parkingLot, SpotType spotType, Gate entryGate) {
         for (ParkingFloor parkingFloor: parkingLot.getParkingFloors()) {
             for (ParkingSpot parkingSpot: parkingFloor.getParkingSpots()) {
                 if (parkingSpot.getParkingSpotStatus().equals(ParkingSpotStatus.AVAILABLE)
-                && parkingSpot.getSpotType().equals(spotType)) {
+                && parkingSpot.getVehicleType().equals(spotType)) {
                     return parkingSpot;
                 }
             }

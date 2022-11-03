@@ -1,28 +1,13 @@
-package com.scaler.parkinglot.models;
+package com.scaler.models;
 
 import java.util.List;
+import java.util.Map;
 
 public class ParkingLot extends BaseModel {
     private String address;
     private List<ParkingFloor> parkingFloors;
-    private List<EntryGate> entryGates;
-    private List<ExitGate> exitGates;
-
-    public List<EntryGate> getEntryGates() {
-        return entryGates;
-    }
-
-    public void setEntryGates(List<EntryGate> entryGates) {
-        this.entryGates = entryGates;
-    }
-
-    public List<ExitGate> getExitGates() {
-        return exitGates;
-    }
-
-    public void setExitGates(List<ExitGate> exitGates) {
-        this.exitGates = exitGates;
-    }
+    private List<Gate> gates;
+    private Map<VehicleType, VehicleTypePrice> vehicleTypePriceMap;
 
     public String getAddress() {
         return address;
@@ -40,4 +25,24 @@ public class ParkingLot extends BaseModel {
         this.parkingFloors = parkingFloors;
     }
 
+    public List<Gate> getGates() {
+        return gates;
+    }
+
+    public void setGates(List<Gate> gates) {
+        this.gates = gates;
+    }
+
+    public Map<VehicleType, VehicleTypePrice> getVehicleTypePriceMap() {
+        return vehicleTypePriceMap;
+    }
+
+    public void setVehicleTypePriceMap(Map<VehicleType, VehicleTypePrice> vehicleTypePriceMap) {
+        this.vehicleTypePriceMap = vehicleTypePriceMap;
+    }
 }
+
+
+// Student {
+//  Batch
+// }

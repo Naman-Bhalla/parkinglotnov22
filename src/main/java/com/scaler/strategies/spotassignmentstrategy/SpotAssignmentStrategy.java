@@ -1,9 +1,9 @@
-package com.scaler.parkinglot.strategies.spotassignmentstrategy;
+package com.scaler.strategies.spotassignmentstrategy;
 
-import com.scaler.parkinglot.models.*;
+import com.scaler.models.*;
 
 public interface SpotAssignmentStrategy {
     ParkingSpot assignSpot(ParkingLot parkingLot,
                            SpotType spotType,
-                           EntryGate entryGate);
+                           Gate entryGate);
 }

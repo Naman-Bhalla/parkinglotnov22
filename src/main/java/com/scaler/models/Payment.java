@@ -1,4 +1,4 @@
-package com.scaler.parkinglot.models;
+package com.scaler.models;
 
 import java.util.Date;
 

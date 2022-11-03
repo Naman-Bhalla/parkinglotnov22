@@ -1,4 +1,4 @@
-package com.scaler.parkinglot.models;
+package com.scaler.models;
 
 import java.util.Date;
 
@@ -9,7 +9,7 @@ public class Ticket extends BaseModel {
     private Operator generatedBy;
 
     private ParkingLot parkingLot;
-    private EntryGate entryGate;
+    private Gate entryGate;
     private String ownerName;
 
 
@@ -29,11 +29,11 @@ public class Ticket extends BaseModel {
         this.parkingLot = parkingLot;
     }
 
-    public EntryGate getEntryGate() {
+    public Gate getEntryGate() {
         return entryGate;
     }
 
-    public void setEntryGate(EntryGate entryGate) {
+    public void setEntryGate(Gate entryGate) {
         this.entryGate = entryGate;
     }
 

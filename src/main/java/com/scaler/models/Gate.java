@@ -1,6 +1,6 @@
-package com.scaler.parkinglot.models;
+package com.scaler.models;
 
-public abstract class Gate extends BaseModel {
+public class Gate extends BaseModel {
     private int number;
     private GateType gateType;
     private Operator operator;

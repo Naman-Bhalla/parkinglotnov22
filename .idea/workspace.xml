@@ -4,14 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d543121-2d28-48af-9e0e-93dfd594c18a" name="Changes" comment="" />
+    <list default="true" id="7d543121-2d28-48af-9e0e-93dfd594c18a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/controllers/ParkingLotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/dtos/CreateParkingLotRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/dtos/CreateParkingLotResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/dtos/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/services/ParkingLotService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/DisplayBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/ElectricCharger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/ElectricCharger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/ElectricParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/ElectricParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/GateStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/GateStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/GateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/GateType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/InvoicePaidStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/InvoicePaidStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/ParkingFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/ParkingFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/ParkingSpotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/ParkingSpotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/PaymentMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/PaymentMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/PaymentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/SpotType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/SpotType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/models/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/models/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/strategies/feescalculationstrategy/FeesCalculationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/strategies/feescalculationstrategy/FeesCalculationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/strategies/spotassignmentstrategy/RandomSpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/strategies/spotassignmentstrategy/RandomSpotAssignmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/strategies/spotassignmentstrategy/SpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/strategies/spotassignmentstrategy/SpotAssignmentStrategy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2H2RVNUgauwWQBwRFeioRbuD76F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,9 +67,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/parkinglotnov22/src/main/java/com/scaler"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/scaler" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/scaler/models" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,8 +86,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667481215905</updated>
+      <workItem from="1667481217226" duration="9977000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

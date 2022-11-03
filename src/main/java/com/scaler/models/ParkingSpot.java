@@ -1,9 +1,8 @@
-package com.scaler.parkinglot.models;
+package com.scaler.models;
 
 public class ParkingSpot extends BaseModel {
     private int spotNumber;
-    private ParkingFloor parkingFloor;
-    private SpotType spotType;
+    private VehicleType vehicleType;
     private ParkingSpotStatus parkingSpotStatus;
 
     public int getSpotNumber() {
@@ -14,12 +13,12 @@ public class ParkingSpot extends BaseModel {
         this.spotNumber = spotNumber;
     }
 
-    public SpotType getSpotType() {
-        return spotType;
+    public VehicleType getVehicleType() {
+        return vehicleType;
     }
 
-    public void setSpotType(SpotType spotType) {
-        this.spotType = spotType;
+    public void setVehicleType(VehicleType vehicleType) {
+        this.vehicleType = vehicleType;
     }
 
     public ParkingSpotStatus getParkingSpotStatus() {
